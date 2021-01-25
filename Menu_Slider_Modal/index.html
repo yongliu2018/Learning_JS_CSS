@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>My Landing Page</title>
+</head>
+<body>
+  <nav>
+    <div class="logo">
+      <img src="https://randomuser.me/api/portraits/men/76.jpg" alt="user">
+    </div>
+    <ul>
+      <li><a href ="#">Home</a></li>
+      <li><a href ="#">Portfolio</a></li>
+      <li><a href ="#">Blog</a></li>
+      <li><a href ="#">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <header>
+    <button id="toggle" class="toggle">
+      <i class="fa fa-bars fa-2x"></i><!--fontawesome font-->
+    </button>
+    <h1>My Landing Page</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, labore!</p>
+
+    <button class="cta-btn" id="open">Sign Up!</button>
+  </header>
+
+  <div class="container">
+    <h2>What is this landing page about?</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus, ut dignissimos necessitatibus praesentium quidem impedit, error quod quaerat, doloremque consectetur minima vel pariatur enim quisquam quia facilis itaque libero. Possimus!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ea mollitia numquam. Officia consequuntur voluptate repellendus quibusdam totam labore odio.</p>
+
+    <h2>Tell Me More</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque in quis, ratione nihil inventore eius voluptate odio maxime culpa, autem aut quibusdam atque perspiciatis nulla quidem repellat ipsam. Ullam itaque laborum aliquid ad ipsam exercitationem recusandae. Repudiandae, temporibus molestiae? Ipsam.</p>
+
+    <h2>Benefits</h2>
+    <ul>
+      <li>LifeTime Access</li>
+      <li>30 Day Money Back Guaranteed!</li>
+      <li>Tailered Customer Support</li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure consequuntur dignissimos dolor numquam nobis quam nisi ratione quidem officia non suscipit illo ab blanditiis repudiandae, magni sit, consequatur porro rerum! Dolorum fuga facere quaerat deserunt asperiores consectetur ut placeat explicabo, ratione qui veniam sit sint praesentium consequatur dolores corporis inventore porro est! Corporis, quidem illo delectus possimus magnam sapiente accusantium architecto? Rem ipsa consectetur repellendus animi illo nam reprehenderit ad.</p>
+  </div>
+
+  <!--MODAL-->
+  <div class="modal-container" id="modal">
+    <div class="modal">
+      <button class="close-btn" id="close">
+        <i class="fa fa-times"></i> <!--fontawesome font-->
+      </button>
+      <div class="modal-header">
+        <h3>Sign Up</h3>
+      </div>
+      <div class="modal-content">
+        <p>Register with us to get offers, support and more!</p>
+        <form class="modal-form">
+          <div>
+            <label for="name">Name</label>
+              <input type="text" id="name" placeholder = "Enter Name" class="form-input">
+          </div>
+          <div>
+            <label for="email">Email</label>
+              <input type="email" id="email" placeholder = "Enter Email" class="form-input">
+          </div>
+          <div>
+            <label for="Password">Password</label>
+              <input type="password" id="Password" placeholder = "Enter Password" class="form-input">
+          </div>
+          <div>
+            <label for="password2">Confirm Password</label>
+              <input type="password" id="password2" placeholder = "Confirm Password" class="form-input">
+          </div>
+          <input type="submit" value ="Submit" class = "Submit-btn">
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
